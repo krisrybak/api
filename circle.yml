@@ -1,6 +1,9 @@
 machine:
   php:
     version: 7.0.7
+dependencies:
+  pre:
+    - cp $HOME/$CIRCLE_PROJECT_REPONAME/app/config/parameters.yaml.circle.dist $HOME/$CIRCLE_PROJECT_REPONAME/app/config/parameters.yml
 test:
   override:
     - phpunit --configuration circleci.phpunit.xml

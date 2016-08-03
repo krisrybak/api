@@ -1,0 +1,21 @@
+# This file is auto-generated during the composer install
+parameters:
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    secret: ThisTokenIsNotSoSecretChangeIt
+
+    # Databases
+    # ACL write
+    acl_write_database_host: 192.168.56.121
+    acl_write_database_port: null
+    acl_write_database_name: api
+    acl_write_database_user: krisrybak
+    acl_write_database_password: null
+    # ACL read
+    acl_read_database_host: 192.168.56.121
+    acl_read_database_port: null
+    acl_read_database_name: api
+    acl_read_database_user: krisrybak
+    acl_read_database_password: null
