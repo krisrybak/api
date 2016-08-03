@@ -5,5 +5,8 @@ dependencies:
   pre:
     - cp $HOME/$CIRCLE_PROJECT_REPONAME/app/config/parameters.yaml.circle.dist $HOME/$CIRCLE_PROJECT_REPONAME/app/config/parameters.yml
 test:
+  pre:
+    - composer install -d dist --prefer-source --no-interaction --optimize-autoloader
+    - composer install -d src --prefer-source --no-interaction --optimize-autoloader
   override:
     - phpunit --configuration circleci.phpunit.xml
