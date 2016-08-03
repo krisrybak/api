@@ -1,6 +1,6 @@
 Central Api
 ========================
-
+[![CircleCI](https://circleci.com/gh/rybakdigital/api.svg?style=svg)](https://circleci.com/gh/rybakdigital/api)
 Central API used by RybakDigital
 
 ## Setup for Developers
