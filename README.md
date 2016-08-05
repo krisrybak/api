@@ -1,5 +1,6 @@
 Central Api
 ========================
+[![Build Status](https://travis-ci.org/rybakdigital/api.svg?branch=master)](https://travis-ci.org/rybakdigital/api)
 [![CircleCI](https://circleci.com/gh/rybakdigital/api.svg?style=svg)](https://circleci.com/gh/rybakdigital/api)
 Central API used by RybakDigital
 
