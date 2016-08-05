@@ -17,3 +17,17 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
+
+    # Databases
+    # ACL write
+    acl_write_database_host: 127.0.0.1
+    acl_write_database_port: null
+    acl_write_database_name: symfony
+    acl_write_database_user: root
+    acl_write_database_password: null
+    # ACL read
+    acl_read_database_host: 127.0.0.1
+    acl_read_database_port: null
+    acl_read_database_name: symfony
+    acl_read_database_user: root
+    acl_read_database_password: null
