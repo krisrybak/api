@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7453477a902580244a534995df54daea",
-    "content-hash": "efea6057edbea95bd24dc6880feb52b5",
+    "hash": "e8bf52291b58bfab27b796dd3aa84ec8",
+    "content-hash": "09b274315426ed6dbd3764f22065bd72",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1088,16 +1088,16 @@
         },
         {
             "name": "rybakdigital/api-framework-bundle",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rybakdigital/api-frameworkbundle.git",
-                "reference": "b7ea6435bd1a7825b6c2e5920e916c48a0e8a519"
+                "reference": "7bf9d0e4891484cac272652e964d1abdc9ce480b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rybakdigital/api-frameworkbundle/zipball/b7ea6435bd1a7825b6c2e5920e916c48a0e8a519",
-                "reference": "b7ea6435bd1a7825b6c2e5920e916c48a0e8a519",
+                "url": "https://api.github.com/repos/rybakdigital/api-frameworkbundle/zipball/7bf9d0e4891484cac272652e964d1abdc9ce480b",
+                "reference": "7bf9d0e4891484cac272652e964d1abdc9ce480b",
                 "shasum": ""
             },
             "require": {
@@ -1124,7 +1124,7 @@
             "keywords": [
                 "api"
             ],
-            "time": "2016-08-11 14:51:42"
+            "time": "2016-08-12 13:41:33"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -2100,9 +2100,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "rybakdigital/api-framework-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
